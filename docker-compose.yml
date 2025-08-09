@@ -8,7 +8,6 @@ services:
     environment: 
       - STREAM_KEY_CHATURBATE
       - STREAM_KEY_STRIPCHAT
-      - STREAM_KEY_BONGACAMS
-      - STREAM_KEY_CAM4
+      - STREAM_KEY_MFC
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf.template
